@@ -1,1 +1,1 @@
-web: uvicorn app.apipyth:app --host=0.0.0.0 --port=${PORT:-5000}
+web: uvicorn apipyth:app --host=0.0.0.0 --port=${PORT:-5000}
