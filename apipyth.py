@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import mysql.connector
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
